@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+.titulo{
+	width: 800px;
+	background: BLUE;
+	padding: 30px;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 4px;
+	font-family: 'calibri';
+	font-size: 2em;
+	text-align: center;
+	color: black;
+
+
+}
+
+.form-hoja{
+	width: 800px;
+	background: #FFFDE1;
+	padding: 30px;
+	margin: auto;
+	
+	border-radius: 4px;
+	font-family: 'calibri';
+	color: black;
+}
+
+
+
+.form-hoja h2{
+	font-size: 22px;
+	margin-bottom: 20px;
+
+}
+
+.control{
+
+	width: 45%;
+	background: #FFFDE1;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #1f53c5;
+	font-size: 18px;
+
+}

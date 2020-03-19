@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">  
+  <head>    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="whidth=device-width,initial">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <link rel="stylesheet"  href="style.css">
+     <title>Hoja de Vida</title>  
+     
+  </head>    
+  <body> 
+     <section class="titulo">
+       <h1 align=center>Hoja de vida </h1>
+     </section>
+
+     <section class="form-hoja">
+        <h3>Información personal</h3> <br></br>
+       <input class="control" type ="text" name="nombres" id="nombres" placeholder="Nombres y Apellidos"><br><br>
+       <input class="control" type ="text" name="identificacion" id="identificacion" placeholder="número de cédula"><br><br>
+       <input class="control" type ="text" name="edad" id="edad" placeholder="edad"><br><br>
+        <input class="control" type ="email" name="correo" id="correo" placeholder="e-mail de contacto"><br><br>
+        <input class="control" type ="text" name="estadocivil" id="estadocivil" placeholder="estadocivil"><br><br>
+        <input class="control" type ="text" name="telefono" id="telefono" placeholder="Telefono de contacto"><br><br>
+        <h3>Describa su perfil profesional:</h3> <br></br>
+        <textarea COLS=100 ROWS=10 NAME="perfil" id="perfil"></textarea> <br></br>
+        <h3>Ingrese su información academica:</h3> <br></br>
+        <textarea COLS=100 ROWS=10 NAME="infoacademica" id="infoacademica"></textarea> <br></br>
+        <h3>Describa su experiencia ocupacional:</h3> <br></br>
+        <textarea COLS=100 ROWS=10 NAME="infoocupasional" id="infoocupasional"></textarea> <br></br>
+      
+        <p> 
+          <input type="button" onclick="guardarDatos()" value="Guardar datos"/><br></br>
+          <input type="button" onclick="recuperarDatos()" value="Recuperar datos" /><br></br>
+          
+        </p>
+        <p id="recuperar"></p>
+     </section>
+     
+     <script src="LocalStorageHV.js">  
+
+       
+     </script>
+
+    
+  </body>  
+</html>
