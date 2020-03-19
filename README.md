@@ -8,4 +8,4 @@ Zoraya Nazarit Gonzalez
 Ingenieria de sistemas
 
 ## Hoja de vida con localstorage
-*url:* [ver codigos](https://github.com/ZorayaNazarit/EjerciciosPython/blob/master/EjerciciosSimples/Area%20de%20un%20triangulo.py)
+*url:* [ver codigos](https://github.com/ZorayaNazarit/Hoja-de-Vida-/tree/master/Hoja%20de%20vida%20con%20LocalStorage)
